@@ -1,35 +1,37 @@
-/*
- * Globals
- */
 
-
-/* Custom default button */
-/* .btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-/* } */
-
-
-/*
- * Base structure
- */
-
-/* body {
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-}*/
-
-.cover-container {
-  max-width: 100em;
+body {
+  font-family: 'Varela Round', sans-serif;
 }
 
 
 
+.intro {
+  padding: 10% 15%;
+}
+
+.opening-line {
+  font-size: 4.75rem;
+}
+
+.intro-name {
+  font-weight: 700;
+  color: #FF4900;
+}
+
+.intro-desc {
+  font-size: 2.75rem;
+  color: #CBCBCB;
+}
+
+
 /*
- * Header
- */
+  NAV BAR
+*/
+
+ .navbar {
+   padding-right: 10rem;
+   font-size: 1.25rem;
+ }
 
 .nav-masthead .nav-link {
   padding: .5rem;
@@ -46,6 +48,10 @@
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
   border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-link::after {
+  color:#FF4900;
 }
 
 .nav-masthead .nav-link + .nav-link {
