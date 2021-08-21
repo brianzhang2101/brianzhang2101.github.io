@@ -3,7 +3,7 @@ body {
   font-family: 'Varela Round', sans-serif;
 }
 
-
+/* HOME PAGE */
 
 .intro {
   padding: 10% 15%;
@@ -23,14 +23,13 @@ body {
   color: #CBCBCB;
 }
 
-
 /*
   NAV BAR
 */
 
  .navbar {
-   padding-right: 10rem;
    font-size: 1.25rem;
+   padding: 1% 15%;
  }
 
 .nav-masthead .nav-link {
@@ -50,10 +49,6 @@ body {
   border-bottom-color: rgba(255, 255, 255, .25);
 }
 
-.nav-link::after {
-  color:#FF4900;
-}
-
 .nav-masthead .nav-link + .nav-link {
   margin-left: 1rem;
 }
@@ -62,3 +57,56 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+
+/* ABOUT PAGE */
+
+.about {
+  padding: 3% 15%;
+}
+
+.about-section {
+  font-size: 1.5rem;
+}
+
+.about-header:after {
+  content: "";
+  display: inline-block;
+  width: 300px;
+  height: 1px;
+  margin-left: 1rem;
+  margin-bottom: 0.625rem;
+  background-color: white;
+}
+
+.about-header {
+  font-size: 2.75rem;
+}
+
+.about-content {
+  margin-top: 2rem;
+  font-size: 1.15rem;
+  max-width: 45rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li.skill::before {
+  content: "▹ ";
+  color: #FF4900;
+  margin-left: -2.2rem;
+}
+
+.skills {
+  padding-top: 5rem;
+}
+
+.languages {
+  float: left;
+}
+
+.technologies {
+  float: right;
+}
+
