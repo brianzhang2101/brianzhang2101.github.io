@@ -23,9 +23,9 @@ body {
   color: #CBCBCB;
 }
 
-.secondary-line {
+/* .secondary-line {
   padding-bottom: 20rem;
-}
+} */
 
 /*
   NAV BAR
@@ -135,9 +135,11 @@ li.tech {
 
 /* FOOTER */
 
-.footer {
-  text-align: center;
+footer {
+  position: relative;
   font-size: 0.75rem;
-  padding-top: 3%;
+  bottom: 0;
+  height: 2rem;
+  width: 100%;
 }
 
