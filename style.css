@@ -3,6 +3,11 @@ body {
   font-family: 'Varela Round', sans-serif;
 }
 
+a, a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 /* HOME PAGE */
 
 .intro {
@@ -89,7 +94,21 @@ body {
 .about-content {
   margin-top: 2rem;
   font-size: 1.15rem;
-  max-width: 52rem;
+  /* max-width: 52rem; */
+}
+
+#about-image {
+  border-radius: 10px;
+  border: 2px solid #FF4900;
+  box-shadow: 3px 8px 5px 2px rgb(0, 0, 0, 46%);
+}
+
+.contact-icons {
+  padding-top: 3rem;
+}
+
+.icon {
+  padding: 0 1rem;
 }
 
 ul {
