@@ -1,0 +1,88 @@
+body {
+  font-family: "Varela Round", sans-serif;
+}
+
+a,
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* HOME PAGE */
+
+.intro {
+  padding: 10% 15% 0% 15%;
+}
+
+.opening-line {
+  font-size: 4.75rem;
+}
+
+.intro-name {
+  font-weight: 700;
+  color: #ff4900;
+}
+
+.intro-desc {
+  font-size: 2.75rem;
+  color: #cbcbcb;
+}
+
+/* .secondary-line {
+    padding-bottom: 20rem;
+  } */
+
+/*
+    NAV BAR
+  */
+
+.navbar {
+  font-size: 1.25rem;
+  padding: 1% 15%;
+}
+
+.nav-masthead .nav-link {
+  padding: 0.5rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  border-bottom: 0.25rem solid transparent;
+}
+
+.nav-item {
+  margin-left: 0.5rem;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+/* GENERAL CONTENT */
+
+.content-block {
+  padding: 3% 25% 0% 25%;
+}
+
+.content-section {
+  font-size: 1.5rem;
+}
+
+.content-header {
+  font-size: 2.75rem;
+}
+
+/* POSTS */
+
+.body-section {
+  padding-top: 2rem;
+}
